@@ -1,0 +1,24 @@
+{
+  "name": "phenakistoscope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "gulp run",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Hongyu Zhai",
+  "license": "ISC",
+  "homepage": "https://iamzhaihy.github.io/phenakistoscope",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
